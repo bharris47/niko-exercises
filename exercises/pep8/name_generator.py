@@ -2,8 +2,7 @@ import random
 firstNames =['Bob', 'Alice', 'Frank',  'Ben', 'Niko', 'Vicky', 'Amanda']
 lastNames=['Harris', 'Barretto', 'Hansen',   'Smith']
 
-def getRandomName(seed=None):
-    random.seed(seed)
+def getRandomName():
     firstName = random.choice(firstNames)
     lastName = random.choice(lastNames)
     return ' '.join([firstName, lastName])
