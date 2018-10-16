@@ -1,4 +1,5 @@
 # PEP-8
+[![Build Status](https://travis-ci.com/bharris47/niko-exercises.svg?branch=master)](https://travis-ci.com/bharris47/niko-exercises)
 
 ## Context
 
