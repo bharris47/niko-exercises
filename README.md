@@ -1,6 +1,8 @@
 # niko-exercises
 Exercises and lessons for Niko.
 
+[![Build Status](https://travis-ci.com/bharris47/niko-exercises.svg?branch=master)](https://travis-ci.com/bharris47/niko-exercises)
+
 ## Prerequisites
 
 1. Make sure you have Python 3.
