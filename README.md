@@ -35,3 +35,9 @@ pip install -r requirements.txt
 ```
 
 7. Install [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download). The IDE has tools that are going to make your life a lot easier and help you catch mistakes before committing to git.
+
+8. Point PyCharm at the correct virtualenv. Go to Settings > Project Settings > Project Interpreter. Click the gear icon next to the dropdown and select Add Local. Navigate to the location of the virtualenv you created in step 4. Select the `bin/python` executable in that directory.
+
+## Exercises
+
+1. [PEP-8](exercises/pep8) - best practices for conventional code styling
