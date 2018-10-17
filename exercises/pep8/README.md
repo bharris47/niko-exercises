@@ -19,6 +19,6 @@ PyCharm has tools to make this really simple. Check out the `Code` menu as well 
 Instead of pushing to Gitlab and letting the CI run the tests, you can verify PEP-8 compliance and run tests locally.
 
 ```bash
-pylint exercises/
+flake8
 pytest
 ```
