@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-""" bitch
-"""
 import random
 
 FIRST_NAMES = ['Bob', 'Alice', 'Frank', 'Ben', 'Niko', 'Vicky', 'Amanda']
