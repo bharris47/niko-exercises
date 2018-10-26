@@ -1,4 +1,4 @@
-a = int(input('Give amount: '))
+n = int(input('Give amount: '))
 
 
 def generate_fibonacci(n):
@@ -15,4 +15,4 @@ def generate_fibonacci(n):
         a, b = b, a + b
 
 
-print(list(generate_fibonacci(a)))
+print(list(generate_fibonacci(n)))
