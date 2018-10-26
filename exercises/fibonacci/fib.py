@@ -12,4 +12,3 @@ def generate_fibonacci(n):
     for _ in range(n):
         yield a
         a, b = b, a + b
-        
