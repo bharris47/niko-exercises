@@ -44,3 +44,4 @@ pip install -r requirements.txt
 
 1. [PEP-8](exercises/pep8) - best practices for conventional code styling
 2. [Fibonacci Sequence](exercises/fibonacci) - working with generators
+3. [Sorted Stream](exercises/sorting) - more generators!
