@@ -10,4 +10,18 @@ def sorted_stream(*streams):
     :param streams: Sorted iterators
     :return: A generator which yields the sorted elements of all streams.
     """
-    pass
+    entries = []  # Heap of [front value, id, iterator].
+    for id, it in enumerate(map(iter, streams)):
+        try:
+            entries.append([next(it), id, it])
+        except StopIteration:
+            pass
+    heapify(entries)
+    while entries:
+        value, _, it = entry = entries[0]
+        yield value
+        try:
+            entry[0] = next(it)
+            heapreplace(entries, entry)
+        except StopIteration:
+            heappop(entries)
