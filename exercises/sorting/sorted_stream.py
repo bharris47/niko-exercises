@@ -25,3 +25,4 @@ def sorted_stream(*streams):
             heapreplace(entries, entry)
         except StopIteration:
             heappop(entries)
+            
