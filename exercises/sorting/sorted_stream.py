@@ -13,9 +13,6 @@ def sorted_stream(*streams):
     :param streams: Sorted iterators
     :return: A generator which yields the sorted elements of all streams.
     """
-#    for it in streams:
-#        for element in it:
-#             yield element
     entries = []  # Heap of [front value, id, iterator].
     for id, it in enumerate(map(iter, streams)):
         try:
